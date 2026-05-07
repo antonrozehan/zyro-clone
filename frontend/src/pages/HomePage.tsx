@@ -363,7 +363,7 @@ const SkeletonCardWrapper = styled.div`
 
 const SkeletonCard: React.FC = () => <SkeletonCardWrapper />;
 
-const API_URL = 'https://zyro-backend-e9i6.onrender.com/api/';
+const API_URL = 'https://zyro-backend-e9i6.onrender.com/api';
 
 const sliderSettings = {
   dots: false,

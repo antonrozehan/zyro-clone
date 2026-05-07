@@ -276,7 +276,7 @@ const SkeletonCardWrapper = styled.div`
 
 const SkeletonCard: React.FC = () => <SkeletonCardWrapper />;
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = 'https://zyro-backend-e9i6.onrender.com/api';
 
 interface Category {
   id: number;
