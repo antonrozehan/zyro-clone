@@ -1,0 +1,265 @@
+{
+  "nav": {
+    "home": "HOME",
+    "shop": "SHOP",
+    "recommended": "RECOMMENDED",
+    "contacts": "CONTACTS",
+    "howToBuy": "HOW TO BUY",
+    "search": "Search products..."
+  },
+  "common": {
+    "loading": "Loading",
+    "back": "Back",
+    "shopNow": "Shop Now",
+    "addToCart": "Add to Cart"
+  },
+  "categories": {
+    "headphones": "Headphones & earbuds",
+    "speakers": "Speakers",
+    "audioSunglasses": "Audio sunglasses"
+  },
+  "home": {
+    "title": "The world shades.<br />Your music shines.",
+    "recommended": "Recommended",
+    "browse": "Browse Zyro products by category",
+    "whyBuy": "Why buy direct<br />from Zyro",
+    "benefits": {
+      "shipping": "Free 2-day shipping and returns",
+      "trial": "90-day risk-free trial",
+      "service": "World class customer service",
+      "account": "My Zyro account management"
+    },
+    "promise": "A great product is more than what's in the box. It's a promise of premium performance, world-class support, and everything you expect from a trusted brand.",
+    "promise2": "It's just one of many reasons why you'll shop with confidence on Zyro.com."
+  },
+  "products": {
+    "title": "Shop All Products",
+    "allProducts": "All Products",
+    "headphones": "Headphones",
+    "speakers": "Speakers",
+    "audioSpeakers": "Audio Speakers",
+    "noProducts": "No products found. Add some in admin panel!"
+  },
+  "contacts": {
+    "title": "Contact Us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Working Hours",
+    "formTitle": "Send us a message",
+    "name": "Your Name",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Thank you for your message! We will respond within 24 hours."
+  },
+  "howToBuy": {
+    "title": "How to Buy",
+    "step1": "Browse Products",
+    "step1Desc": "Explore our catalog of headphones, speakers and accessories",
+    "step2": "Add to Cart",
+    "step2Desc": "Click 'Add to Cart' on your favorite products",
+    "step3": "Checkout",
+    "step3Desc": "Fill in your delivery details and choose payment method",
+    "step4": "Receive & Enjoy",
+    "step4Desc": "Track your order and enjoy your new product",
+    "payment": "Payment Methods",
+    "paymentCard": "Credit Card (Visa, Mastercard)",
+    "paymentPaypal": "PayPal",
+    "paymentCash": "Cash on Delivery",
+    "delivery": "Delivery Information",
+    "deliveryStandard": "Standard: 3-5 business days - $9.99",
+    "deliveryExpress": "Express: 1-2 business days - $19.99",
+    "deliveryFree": "Free shipping on orders over $100",
+    "return": "Return Policy",
+    "returnDays": "30 days to return any product",
+    "returnGuarantee": "100% money-back guarantee",
+    "returnFree": "Free returns within 14 days",
+    "shopNow": "Start Shopping Now"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty 🛒",
+    "emptyDesc": "Looks like you haven't added any items to your cart yet.",
+    "continue": "Continue Shopping",
+    "items": "items",
+    "product": "Product",
+    "name": "Name",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "clear": "Clear Cart",
+    "checkout": "Proceed to Checkout",
+    "added": "added to cart!"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "customerReviews": "Customer Reviews",
+    "writeReview": "Leave a review with photo",
+    "yourName": "Your name",
+    "yourReview": "Write your review here...",
+    "submitReview": "Submit Review",
+    "noReviews": "No reviews yet. Be the first! 🎉",
+    "verifiedPurchase": "Verified Purchase",
+    "adminReply": "Admin Reply",
+    "responded": "Responded",
+    "reviews": "reviews",
+    "typeHeadphones": "HEADPHONES & EARBUDS",
+    "typeSpeakers": "SPEAKERS",
+    "typeAudio": "AUDIO SPEAKERS",
+    "noDescription": "No description available for this product.",
+    "notFound": "Product not found",
+    "nameRequired": "Please enter your name",
+    "reviewRequired": "Please enter your review",
+    "reviewSubmitted": "Thank you! Your review has been submitted",
+    "reviewError": "Error submitting review. Please try again.",
+    "photoLimit": "Photo must be less than 5MB"
+  },
+  "recommended": {
+    "title": "Recommended for You",
+    "productsFound": "products found",
+    "sortBy": "Sort by",
+    "topRated": "Top Rated",
+    "priceLowHigh": "Price: Low to High",
+    "priceHighLow": "Price: High to Low",
+    "nameAZ": "Name: A to Z",
+    "nameZA": "Name: Z to A",
+    "priceRange": "Price Range",
+    "categories": "Categories",
+    "reset": "Reset All Filters",
+    "noResults": "No products found. Try changing your filters."
+  },
+  "checkout": {
+    "title": "Checkout",
+    "personalInfo": "Personal Information",
+    "fullName": "Full Name",
+    "fullNameRequired": "Full name is required",
+    "email": "Email",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Email is invalid",
+    "phone": "Phone",
+    "phoneRequired": "Phone number is required",
+    "deliveryAddress": "Delivery Address",
+    "street": "Street",
+    "streetRequired": "Street is required",
+    "houseNumber": "House Number",
+    "houseNumberRequired": "House number is required",
+    "apartment": "Apartment / Suite",
+    "city": "City",
+    "cityRequired": "City is required",
+    "zipCode": "ZIP Code",
+    "zipRequired": "ZIP code is required",
+    "country": "Country",
+    "shippingPayment": "Shipping & Payment",
+    "shippingMethod": "Shipping Method",
+    "shippingFree": "Free Shipping (5-7 days)",
+    "shippingStandard": "Standard (3-5 days)",
+    "shippingExpress": "Express (1-2 days)",
+    "paymentMethod": "Payment Method",
+    "paymentCard": "Credit Card",
+    "paymentPaypal": "PayPal",
+    "paymentCash": "Cash on Delivery",
+    "orderNotes": "Order Notes (Optional)",
+    "orderNotesPlaceholder": "Special instructions for delivery...",
+    "orderSummary": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "qty": "Qty",
+    "placeOrder": "Place Order",
+    "placingOrder": "Placing Order...",
+    "serverError": "Server error",
+    "noResponse": "No response from server. Make sure Django server is running on port 8000",
+    "error": "Error"
+  },
+  "orderSuccess": {
+    "title": "Order Confirmed!",
+    "message": "Thank you for your purchase. Your order has been received and is being processed.",
+    "orderNumber": "Order #",
+    "continueShopping": "Continue Shopping",
+    "viewProducts": "View Products"
+  },
+  "chat": {
+    "welcome": "👋 Hello! I'm Zyro virtual assistant. How can I help you? Click one of the buttons below or type your question.",
+    "placeholder": "Type a message...",
+    "clear": "Clear chat",
+    "error": "😅 Sorry, an error occurred. Please try again later or email us at support@zyro.com"
+  },
+  "auth": {
+    "title": "Welcome to Zyro",
+    "subtitle": "Sign in or create an account to continue",
+    "signIn": "Sign In",
+    "signUp": "Create Account",
+    "login": {
+      "title": "Sign In",
+      "username": "Username",
+      "password": "Password",
+      "button": "Sign In",
+      "loading": "Signing in...",
+      "noAccount": "Don't have an account?",
+      "forgotPassword": "Forgot password?"
+    },
+    "register": {
+      "title": "Create Account",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "button": "Create Account",
+      "loading": "Creating account...",
+      "haveAccount": "Already have an account?"
+    },
+    "errors": {
+      "usernameRequired": "Username is required",
+      "passwordRequired": "Password is required",
+      "passwordsMatch": "Passwords do not match",
+      "passwordMinLength": "Password must be at least 6 characters",
+      "loginFailed": "Invalid username or password",
+      "registrationFailed": "Registration failed",
+      "usernameExists": "Username already exists",
+      "emailExists": "Email already exists"
+    },
+    "success": {
+      "registration": "Registration successful! Redirecting..."
+    }
+  },
+  "account": {
+    "title": "Account",
+    "signOut": "Sign out",
+    "profile": {
+      "joined": "Joined",
+      "edit": "Edit"
+    },
+    "stats": {
+      "orders": "Orders",
+      "spent": "Spent",
+      "completed": "Completed",
+      "inProgress": "In progress"
+    },
+    "tabs": {
+      "orders": "Order history",
+      "settings": "Settings"
+    },
+    "orders": {
+      "empty": "No orders yet",
+      "emptyDesc": "Your order history will appear here",
+      "browseProducts": "Browse products",
+      "order": "Order",
+      "date": "Date",
+      "total": "Total",
+      "status": "Status"
+    },
+    "settings": {
+      "username": "Username",
+      "email": "Email",
+      "save": "Save changes"
+    }
+  },
+  "profile": {
+    "title": "My Account",
+    "personalInfo": "Personal Information",
+    "username": "Username",
+    "email": "Email",
+    "memberSince": "Member since"
+  }
+}

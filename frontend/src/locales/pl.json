@@ -1,0 +1,265 @@
+{
+  "nav": {
+    "home": "STRONA GŁÓWNA",
+    "shop": "SKLEP",
+    "recommended": "POLECANE",
+    "contacts": "KONTAKT",
+    "howToBuy": "JAK KUPIĆ",
+    "search": "Szukaj produktów..."
+  },
+  "common": {
+    "loading": "Ładowanie",
+    "back": "Wstecz",
+    "shopNow": "Kup teraz",
+    "addToCart": "Dodaj do koszyka"
+  },
+  "categories": {
+    "headphones": "Słuchawki",
+    "speakers": "Głośniki",
+    "audioSunglasses": "Okulary audio"
+  },
+  "home": {
+    "title": "Świat w cieniu.<br />Twoja muzyka świeci.",
+    "recommended": "Polecane",
+    "browse": "Przeglądaj produkty Zyro według kategorii",
+    "whyBuy": "Dlaczego kupować bezpośrednio<br />od Zyro",
+    "benefits": {
+      "shipping": "Darmowa wysyłka 2-dniowa i zwroty",
+      "trial": "90-dniowy bezpłatny okres próbny",
+      "service": "Światowej klasy obsługa klienta",
+      "account": "Zarządzanie kontem Zyro"
+    },
+    "promise": "Świetny produkt to coś więcej niż to, co jest w pudełku. To obietnica najwyższej wydajności, światowego wsparcia i wszystkiego, czego oczekujesz od zaufanej marki.",
+    "promise2": "To tylko jeden z wielu powodów, dla których będziesz robić zakupy z pewnością na Zyro.com."
+  },
+  "products": {
+    "title": "Wszystkie produkty",
+    "allProducts": "Wszystkie produkty",
+    "headphones": "Słuchawki",
+    "speakers": "Głośniki",
+    "audioSpeakers": "Głośniki audio",
+    "noProducts": "Nie znaleziono produktów. Dodaj je w panelu administracyjnym!"
+  },
+  "contacts": {
+    "title": "Kontakt",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "Email",
+    "hours": "Godziny pracy",
+    "formTitle": "Wyślij wiadomość",
+    "name": "Twoje imię",
+    "subject": "Temat",
+    "message": "Wiadomość",
+    "send": "Wyślij",
+    "success": "Dziękujemy za wiadomość! Odpowiemy w ciągu 24 godzin."
+  },
+  "howToBuy": {
+    "title": "Jak kupić",
+    "step1": "Przeglądaj produkty",
+    "step1Desc": "Zapoznaj się z naszym katalogiem słuchawek, głośników i akcesoriów",
+    "step2": "Dodaj do koszyka",
+    "step2Desc": "Kliknij 'Dodaj do koszyka' na wybrane produkty",
+    "step3": "Złóż zamówienie",
+    "step3Desc": "Wypełnij dane dostawy i wybierz metodę płatności",
+    "step4": "Odbierz i ciesz się",
+    "step4Desc": "Śledź swoje zamówienie i ciesz się nowym produktem",
+    "payment": "Metody płatności",
+    "paymentCard": "Karta kredytowa (Visa, Mastercard)",
+    "paymentPaypal": "PayPal",
+    "paymentCash": "Płatność przy odbiorze",
+    "delivery": "Informacje o dostawie",
+    "deliveryStandard": "Standardowa: 3-5 dni roboczych - $9.99",
+    "deliveryExpress": "Ekspresowa: 1-2 dni robocze - $19.99",
+    "deliveryFree": "Darmowa wysyłka przy zamówieniach powyżej $100",
+    "return": "Polityka zwrotów",
+    "returnDays": "30 dni na zwrot produktu",
+    "returnGuarantee": "100% gwarancji zwrotu pieniędzy",
+    "returnFree": "Darmowe zwroty w ciągu 14 dni",
+    "shopNow": "Zacznij zakupy"
+  },
+  "cart": {
+    "title": "Koszyk",
+    "empty": "Twój koszyk jest pusty 🛒",
+    "emptyDesc": "Wygląda na to, że nie dodałeś jeszcze żadnych produktów do koszyka.",
+    "continue": "Kontynuuj zakupy",
+    "items": "produktów",
+    "product": "Produkt",
+    "name": "Nazwa",
+    "price": "Cena",
+    "quantity": "Ilość",
+    "total": "Razem",
+    "clear": "Wyczyść koszyk",
+    "checkout": "Złóż zamówienie",
+    "added": "dodany do koszyka!"
+  },
+  "product": {
+    "addToCart": "Dodaj do koszyka",
+    "customerReviews": "Opinie klientów",
+    "writeReview": "Dodaj opinię ze zdjęciem",
+    "yourName": "Twoje imię",
+    "yourReview": "Napisz swoją opinię tutaj...",
+    "submitReview": "Wyślij opinię",
+    "noReviews": "Brak opinii. Bądź pierwszy! 🎉",
+    "verifiedPurchase": "Zakup zweryfikowany",
+    "adminReply": "Odpowiedź admina",
+    "responded": "Odpowiedziano",
+    "reviews": "opinii",
+    "typeHeadphones": "SŁUCHAWKI",
+    "typeSpeakers": "GŁOŚNIKI",
+    "typeAudio": "GŁOŚNIKI AUDIO",
+    "noDescription": "Brak opisu dla tego produktu.",
+    "notFound": "Produkt nie znaleziony",
+    "nameRequired": "Proszę podać swoje imię",
+    "reviewRequired": "Proszę napisać opinię",
+    "reviewSubmitted": "Dziękujemy! Twoja opinia została wysłana",
+    "reviewError": "Błąd podczas wysyłania opinii. Spróbuj ponownie.",
+    "photoLimit": "Zdjęcie nie może przekraczać 5MB"
+  },
+  "recommended": {
+    "title": "Polecane dla Ciebie",
+    "productsFound": "produktów znaleziono",
+    "sortBy": "Sortuj według",
+    "topRated": "Najwyżej oceniane",
+    "priceLowHigh": "Cena: rosnąco",
+    "priceHighLow": "Cena: malejąco",
+    "nameAZ": "Nazwa: A do Z",
+    "nameZA": "Nazwa: Z do A",
+    "priceRange": "Zakres cen",
+    "categories": "Kategorie",
+    "reset": "Resetuj filtry",
+    "noResults": "Nie znaleziono produktów. Spróbuj zmienić filtry."
+  },
+  "checkout": {
+    "title": "Zamówienie",
+    "personalInfo": "Dane osobowe",
+    "fullName": "Imię i nazwisko",
+    "fullNameRequired": "Imię i nazwisko jest wymagane",
+    "email": "Email",
+    "emailRequired": "Email jest wymagany",
+    "emailInvalid": "Email jest nieprawidłowy",
+    "phone": "Telefon",
+    "phoneRequired": "Numer telefonu jest wymagany",
+    "deliveryAddress": "Adres dostawy",
+    "street": "Ulica",
+    "streetRequired": "Ulica jest wymagana",
+    "houseNumber": "Numer domu",
+    "houseNumberRequired": "Numer domu jest wymagany",
+    "apartment": "Mieszkanie / Lokal",
+    "city": "Miasto",
+    "cityRequired": "Miasto jest wymagane",
+    "zipCode": "Kod pocztowy",
+    "zipRequired": "Kod pocztowy jest wymagany",
+    "country": "Kraj",
+    "shippingPayment": "Dostawa i płatność",
+    "shippingMethod": "Metoda dostawy",
+    "shippingFree": "Darmowa dostawa (5-7 dni)",
+    "shippingStandard": "Standardowa (3-5 dni) - $9.99",
+    "shippingExpress": "Ekspresowa (1-2 dni) - $19.99",
+    "paymentMethod": "Metoda płatności",
+    "paymentCard": "Karta kredytowa",
+    "paymentPaypal": "PayPal",
+    "paymentCash": "Płatność przy odbiorze",
+    "orderNotes": "Uwagi do zamówienia (opcjonalnie)",
+    "orderNotesPlaceholder": "Specjalne instrukcje dotyczące dostawy...",
+    "orderSummary": "Podsumowanie zamówienia",
+    "subtotal": "Suma częściowa",
+    "shipping": "Dostawa",
+    "total": "Razem",
+    "qty": "Ilość",
+    "placeOrder": "Złóż zamówienie",
+    "placingOrder": "Składanie zamówienia...",
+    "serverError": "Błąd serwera",
+    "noResponse": "Brak odpowiedzi z serwera. Upewnij się, że serwer Django działa na porcie 8000",
+    "error": "Błąd"
+  },
+  "orderSuccess": {
+    "title": "Zamówienie potwierdzone!",
+    "message": "Dziękujemy za zakup. Twoje zamówienie zostało przyjęte i jest przetwarzane.",
+    "orderNumber": "Zamówienie #",
+    "continueShopping": "Kontynuuj zakupy",
+    "viewProducts": "Zobacz produkty"
+  },
+  "chat": {
+    "welcome": "👋 Witaj! Jestem wirtualnym asystentem Zyro. Jak mogę pomóc? Kliknij jeden z przycisków poniżej lub napisz swoje pytanie.",
+    "placeholder": "Napisz wiadomość...",
+    "clear": "Wyczyść czat",
+    "error": "😅 Przepraszam, wystąpił błąd. Spróbuj ponownie później lub napisz do nas na email: support@zyro.com"
+  },
+  "auth": {
+    "title": "Witaj w Zyro",
+    "subtitle": "Zaloguj się lub utwórz konto",
+    "signIn": "Zaloguj się",
+    "signUp": "Utwórz konto",
+    "login": {
+      "title": "Logowanie",
+      "username": "Nazwa użytkownika",
+      "password": "Hasło",
+      "button": "Zaloguj się",
+      "loading": "Logowanie...",
+      "noAccount": "Nie masz konta?",
+      "forgotPassword": "Zapomniałeś hasła?"
+    },
+    "register": {
+      "title": "Rejestracja",
+      "username": "Nazwa użytkownika",
+      "email": "Email",
+      "password": "Hasło",
+      "confirmPassword": "Potwierdź hasło",
+      "button": "Zarejestruj się",
+      "loading": "Rejestracja...",
+      "haveAccount": "Masz już konto?"
+    },
+    "errors": {
+      "usernameRequired": "Nazwa użytkownika jest wymagana",
+      "passwordRequired": "Hasło jest wymagane",
+      "passwordsMatch": "Hasła nie są zgodne",
+      "passwordMinLength": "Hasło musi mieć co najmniej 6 znaków",
+      "loginFailed": "Nieprawidłowa nazwa użytkownika lub hasło",
+      "registrationFailed": "Rejestracja nie powiodła się",
+      "usernameExists": "Nazwa użytkownika już istnieje",
+      "emailExists": "Email już istnieje"
+    },
+    "success": {
+      "registration": "Rejestracja udana! Przekierowanie..."
+    }
+  },
+  "account": {
+    "title": "Konto",
+    "signOut": "Wyloguj się",
+    "profile": {
+      "joined": "Z nami od",
+      "edit": "Edytuj"
+    },
+    "stats": {
+      "orders": "Zamówienia",
+      "spent": "Wydano",
+      "completed": "Zakończone",
+      "inProgress": "W trakcie"
+    },
+    "tabs": {
+      "orders": "Historia zamówień",
+      "settings": "Ustawienia"
+    },
+    "orders": {
+      "empty": "Brak zamówień",
+      "emptyDesc": "Tutaj pojawi się historia twoich zamówień",
+      "browseProducts": "Przeglądaj produkty",
+      "order": "Zamówienie",
+      "date": "Data",
+      "total": "Razem",
+      "status": "Status"
+    },
+    "settings": {
+      "username": "Nazwa użytkownika",
+      "email": "Email",
+      "save": "Zapisz"
+    }
+  },
+  "profile": {
+    "title": "Moje konto",
+    "personalInfo": "Dane osobowe",
+    "username": "Nazwa użytkownika",
+    "email": "Email",
+    "memberSince": "Z nami od"
+  }
+}
