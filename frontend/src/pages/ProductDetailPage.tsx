@@ -601,7 +601,7 @@ const formatDate = (dateString: string) => {
   return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 };
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = 'https://zyro-backend-e9i6.onrender.com/api';
 
 const ProductDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
