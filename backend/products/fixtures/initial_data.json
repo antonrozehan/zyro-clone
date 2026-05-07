@@ -1,0 +1,20 @@
+[
+  {
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+      "name": "Headphones & Earbuds",
+      "slug": "headphones-earbuds",
+      "icon": "🎧"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "name": "Speakers",
+      "slug": "speakers",
+      "icon": "🔊"
+    }
+  }
+]

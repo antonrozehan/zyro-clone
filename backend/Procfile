@@ -1,0 +1,1 @@
+web: gunicorn zyro_backend.wsgi:application
