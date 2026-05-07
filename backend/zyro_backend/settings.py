@@ -14,6 +14,7 @@ import os
 from pathlib import Path
 from datetime import timedelta
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -21,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 SECRET_KEY = 'django-insecure-your-secret-key-here'
-DEBUG = True
+DEBUG = False  # <--- ВАЖНО: DEBUG ОБЯЗАТЕЛЬНО False на сервере
 ALLOWED_HOSTS = ['*']
 
 # Google Gemini API Key
@@ -143,3 +144,8 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# --- КЛЮЧЕВОЕ ИСПРАВЛЕНИЕ ДЛЯ RENDER ---
+# Эта настройка говорит Django: "Отдавай медиа-файлы вручную, как в режиме отладки"
+FORCE_SERVE_STATIC_FILES = True
+# Обратите внимание на `DEBUG = False` выше. Эта настройка заменит его для статических/медиа файлов.
