@@ -69,11 +69,11 @@ Full-stack e-commerce website for selling headphones, speakers, and audio access
 
 | Home Page | Product Catalog | Shopping Cart |
 |-----------|----------------|----------------|
-| ![Home](https://via.placeholder.com/300x200?text=Home) | ![Shop](https://via.placeholder.com/300x200?text=Shop) | ![Cart](https://via.placeholder.com/300x200?text=Cart) |
+| ![Home](screenshots/home.jpg) | ![Shop](screenshots/shop.jpg) | ![Cart](screenshots/card.png) |
 
 | Chatbot | Music Player | Checkout |
 |---------|--------------|----------|
-| ![Chat](https://via.placeholder.com/300x200?text=Chat) | ![Player](https://via.placeholder.com/300x200?text=Player) | ![Checkout](https://via.placeholder.com/300x200?text=Checkout) |
+| ![shopping cart](screenshots/corrse.png) | ![Player](screenshots/account.png) | ![Checkout](screenshots/bot.png) |
 
 ---
 
