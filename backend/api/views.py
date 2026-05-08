@@ -8,27 +8,24 @@ from rest_framework import status
 import uuid
 import re
 from django.conf import settings
-# import google.generativeai as genai  # Временно отключено
+import google.generativeai as genai
 import logging
 
 # Настройка логирования
 logger = logging.getLogger(__name__)
 
-# Настройка Google Gemini - ВРЕМЕННО ОТКЛЮЧЕНО
-# try:
-#     if hasattr(settings, 'GEMINI_API_KEY') and settings.GEMINI_API_KEY:
-#         genai.configure(api_key=settings.GEMINI_API_KEY)
-#         gemini_model = genai.GenerativeModel('gemini-1.5-flash')
-#         logger.info("Gemini AI initialized successfully")
-#     else:
-#         gemini_model = None
-#         logger.warning("GEMINI_API_KEY not found in settings")
-# except Exception as e:
-#     gemini_model = None
-#     logger.error(f"Failed to initialize Gemini: {e}")
-
-# Временная заглушка для gemini_model
-gemini_model = None
+# Настройка Google Gemini
+try:
+    if hasattr(settings, 'GEMINI_API_KEY') and settings.GEMINI_API_KEY:
+        genai.configure(api_key=settings.GEMINI_API_KEY)
+        gemini_model = genai.GenerativeModel('gemini-1.5-flash')
+        logger.info("Gemini AI initialized successfully")
+    else:
+        gemini_model = None
+        logger.warning("GEMINI_API_KEY not found in settings")
+except Exception as e:
+    gemini_model = None
+    logger.error(f"Failed to initialize Gemini: {e}")
 
 def detect_language(text: str) -> str:
     """Определение языка вопроса"""
@@ -158,10 +155,51 @@ class ProductDetailViewSet(viewsets.ModelViewSet):
             
         return queryset
 
-# Функция AI временно отключена
 def get_gemini_response(message: str) -> str:
-    """Получение ответа от Google Gemini AI - ВРЕМЕННО ОТКЛЮЧЕНО"""
-    return None
+    """Получение ответа от Google Gemini AI на языке пользователя"""
+    if gemini_model is None:
+        return None
+    
+    # Определяем язык сообщения
+    lang = detect_language(message)
+    
+    # Инструкции по языку
+    language_instructions = {
+        'ru': 'Ответь на русском языке. Используй эмодзи. Будь вежливым и полезным.',
+        'en': 'Answer in English language. Use emojis. Be polite and helpful.',
+        'pl': 'Odpowiedz w języku polskim. Używaj emoji. Bądź uprzejmy i pomocny.'
+    }
+    
+    greetings = {
+        'ru': 'Привет! 👋',
+        'en': 'Hello! 👋',
+        'pl': 'Witaj! 👋'
+    }
+    
+    try:
+        system_prompt = f"""
+        Ты - виртуальный помощник интернет-магазина Zyro. 
+        Твоя задача - помогать пользователям с вопросами о товарах, доставке, оплате, возвратах.
+        Имя магазина Zyro. Ты - дружелюбный ассистент.
+        
+        Контекст о магазине:
+        - Мы продаем наушники, колонки и аудио-аксессуары
+        - Доставка по всему миру: стандартная 3-5 дней ($9.99), экспресс 1-2 дня ($19.99), бесплатная при заказе от $100
+        - Возврат в течение 30 дней, 100% гарантия
+        - Способы оплаты: кредитная карта, PayPal, наличные при получении
+        
+        ВАЖНОЕ ПРАВИЛО: {language_instructions[lang]}
+        
+        Вопрос пользователя: {message}
+        
+        Ответ:
+        """
+        
+        response = gemini_model.generate_content(system_prompt)
+        return response.text
+    except Exception as e:
+        logger.error(f"Gemini API error: {e}")
+        return None
 
 def get_bot_response(message: str, use_ai: bool = True) -> str:
     """Получение ответа с возможностью использовать AI"""
@@ -202,10 +240,7 @@ def get_bot_response(message: str, use_ai: bool = True) -> str:
         }
     }
     
-    # Временно отключаем AI
-    use_ai = False
-    
-    # Пытаемся использовать AI (временно отключено)
+    # Пытаемся использовать AI
     if use_ai:
         ai_response = get_gemini_response(message)
         if ai_response:
@@ -255,8 +290,11 @@ def chat_bot(request):
         }
         bot_response = operator_messages.get(lang, operator_messages['en'])
         msg_type = 'operator'
+    elif use_ai:
+        bot_response = get_bot_response(user_message, use_ai=True)
+        msg_type = 'ai'
+        print(f"🤖 AI response generated ({lang}): {bot_response[:100]}...")
     else:
-        # Временно всегда используем обычного бота без AI
         bot_response = get_bot_response(user_message, use_ai=False)
         msg_type = 'bot'
     
@@ -264,7 +302,7 @@ def chat_bot(request):
         'response': bot_response,
         'session_id': session_id,
         'is_operator_mode': is_operator_mode,
-        'is_ai': False,
+        'is_ai': use_ai,
         'message_type': msg_type
     })
 
